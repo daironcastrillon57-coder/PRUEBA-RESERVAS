@@ -132,7 +132,7 @@ function buildTable(list, isPedidos = false, startIndex = 0, options = {}) {
                     const ext = f.split('.').pop().toLowerCase(); // Obtener la extensión del archivo
                     let iconPath = '';
                     if (['doc', 'docx'].includes(ext)) {
-                        iconPath = '/icons/word.ico'; // Ruta al ícono de Word
+                        iconPath = '/icons/Word.ico'; // Ruta al ícono de Word
                     } else if (['xls', 'xlsx'].includes(ext)) {
                         iconPath = '/icons/excel.ico'; // Ruta al ícono de Excel
                     } else {
